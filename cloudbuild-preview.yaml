@@ -48,7 +48,7 @@ steps:
         "--image",
         "gcr.io/${PROJECT_ID}/${_SERVICE_NAME}:${_PR_NUMBER}-${SHORT_SHA}",
         "--tag",
-        "feature-${_PR_NUMBER}",
+        "pr-${_PR_NUMBER}",
         "--no-traffic",
       ]
 
